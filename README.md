@@ -1,278 +1,244 @@
 # Miniguia de IA Generativa e Engenharia de Prompts com NotebookLM
 
+## Repositório
+
+Link do projeto no GitHub:
+https://github.com/edilsonbit/miniguia-ia-generativa-notebooklm
+
 ## Contexto e objetivos
 
-Este repositório foi criado como parte do desafio de projeto da DIO: "Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM".
+Este projeto foi desenvolvido como parte do desafio da DIO: “Treinando uma IA de Aprendizagem: Explore o Poder do NotebookLM”.
 
-A proposta foi utilizar o NotebookLM como ferramenta de aprendizagem ativa, organizando fontes confiáveis, fazendo perguntas estratégicas à IA e consolidando o conhecimento em um caderno temático estruturado.
+A ideia central foi utilizar o NotebookLM como ferramenta de aprendizagem ativa, combinando pesquisa, curadoria de fontes, testes de prompts e organização do conhecimento em um caderno temático.
 
 ### Tema escolhido
-
-O tema escolhido para este estudo foi:
-
-> Fundamentos de Inteligência Artificial Generativa e Engenharia de Prompts
+Fundamentos de Inteligência Artificial Generativa e Engenharia de Prompts
 
 ### Objetivos de estudo
-
-- Compreender o que é Inteligência Artificial Generativa;
-- Explorar a diferença entre IA tradicional, aprendizado de máquina e modelos generativos;
-- Entender o conceito de engenharia de prompts;
-- Aprender a criar prompts mais claros, específicos e úteis;
-- Validar as respostas geradas pela IA com base em fontes confiáveis;
-- Organizar o conhecimento em um guia de revisão reutilizável;
-- Desenvolver um material de estudo que possa ser usado como portfólio técnico.
+- Compreender o conceito de Inteligência Artificial Generativa;
+- Entender a diferença entre IA, Machine Learning e Deep Learning;
+- Explorar a prática de Engenharia de Prompts;
+- Aprender a formular prompts mais claros e eficazes;
+- Validar as respostas da IA com base em fontes confiáveis;
+- Organizar o conhecimento em um guia de estudo reutilizável;
+- Produzir um material de portfólio com valor técnico e profissional.
 
 ---
 
 ## Curadoria de fontes
 
-As fontes abaixo foram selecionadas para apoiar a investigação do tema e foram utilizadas como base para as perguntas e reflexões no NotebookLM.
+As fontes abaixo foram selecionadas para apoiar o estudo do tema e foram utilizadas como base para as perguntas e reflexões no NotebookLM.
+
+A lista completa também está disponível em [FONTES.md](FONTES.md).
 
 ### 1. Google AI Education
-
 Link: https://ai.google/education/
 
-Descrição: material introdutório sobre IA, incluindo conceitos gerais, aplicações e contexto de uso em diferentes áreas.
+Descrição: material introdutório sobre inteligência artificial, com foco em conceitos, aplicações e contexto educacional.
 
 ### 2. Google Cloud — O que é IA Generativa
-
 Link: https://cloud.google.com/learn/what-is-generative-ai
 
-Descrição: explica de forma clara o conceito de IA generativa, seus modelos e aplicações práticas.
+Descrição: explica de forma clara o que é IA generativa, como funciona e onde é aplicada.
 
 ### 3. OpenAI — Prompt Engineering Guide
-
 Link: https://platform.openai.com/docs/guides/prompt-engineering
 
-Descrição: guia oficial com boas práticas para escrever prompts eficientes e melhorar a qualidade das respostas.
+Descrição: guia oficial com boas práticas para escrever prompts melhores e obter respostas mais úteis.
 
-### 4. UNESCO — Ética e Inteligência Artificial
-
-Link: https://www.unesco.org/en/artificial-intelligence/recommendation-ethics
-
-Descrição: material importante para refletir sobre uso responsável, transparência e ética em IA.
-
-### 5. IBM — O que é IA Generativa?
-
+### 4. IBM — O que é IA Generativa?
 Link: https://www.ibm.com/topics/generative-ai
 
-Descrição: recurso acessível e bem estruturado para entender a definição, usos e impactos da IA generativa.
+Descrição: recurso acessível e bem estruturado para entender o conceito, os usos e os impactos da IA generativa.
+
+### 5. UNESCO — Inteligência Artificial e Ética
+Link: https://www.unesco.org/en/artificial-intelligence/recommendation-ethics
+
+Descrição: material importante para refletir sobre uso responsável, transparência e impactos sociais da IA.
 
 ---
 
-## Engenharia de prompts e "cicatrizes"
+## Engenharia de prompts e “cicatrizes”
 
-Uma parte essencial do desafio foi experimentar diferentes formas de formular perguntas para a IA, analisar os resultados e ajustar os prompts para obter respostas mais úteis.
+A etapa de testes com prompts foi essencial para entender como a qualidade da resposta depende da forma como a pergunta é formulada. Foi possível observar que prompts mais bem estruturados geram respostas mais úteis, detalhadas e contextualizadas.
 
-### Pergunta 1 — Conceito inicial
-
-Prompt utilizado:
-
+### Prompt 1 — Conceito inicial
+Pergunta:
 > Explique o que é Inteligência Artificial Generativa de forma simples, com linguagem acessível para iniciantes e dê exemplos práticos.
 
-Resposta observada:
+Resposta obtida:
+A IA generativa é um tipo de inteligência artificial que cria conteúdo novo a partir de padrões aprendidos em grandes volumes de dados. Ela pode gerar textos, imagens, código e outros tipos de material.
 
-A IA generativa é uma área da IA capaz de criar novo conteúdo a partir de padrões aprendidos em dados. Ela pode gerar textos, imagens, código, áudios e outros formatos. O principal ponto é que ela não apenas analisa informação, mas também produz conteúdo novo.
+Observação:
+A resposta foi útil como base conceitual, mas precisava de aprofundamento para diferenciar IA generativa de outras áreas da IA.
 
-Conclusão:
+### Prompt 2 — Comparação entre conceitos
+Pergunta:
+> Compare Inteligência Artificial, Aprendizado de Máquina, Aprendizado Profundo e IA Generativa.
 
-A resposta foi útil para montar uma base conceitual inicial, mas precisava de mais profundidade para distinguir IA generativa de outras áreas da IA.
+Resposta obtida:
+A Inteligência Artificial é o campo mais amplo. O aprendizado de máquina é uma abordagem dentro desse campo. O aprendizado profundo é uma subárea do aprendizado de máquina. Já a IA generativa é uma aplicação que cria conteúdo novo com base nos padrões aprendidos.
 
-### Pergunta 2 — Comparação entre conceitos
+Observação:
+Esse prompt foi muito eficiente, porque exigia comparação direta, o que ajudou a fixar melhor os conceitos.
 
-Prompt utilizado:
+### Prompt 3 — Explicação didática
+Pergunta:
+> Você é um professor de tecnologia. Explique engenharia de prompts para estudantes iniciantes, com exemplos práticos e cinco boas práticas para escrever prompts melhores.
 
-> Compare Inteligência Artificial, Aprendizado de Máquina, Aprendizado Profundo e IA Generativa. Use linguagem clara e destaque as diferenças e semelhanças.
+Resposta obtida:
+A resposta destacou que prompts mais bem construídos contêm contexto, objetivo claro, público-alvo, formato solicitado e critério de resposta. Isso melhora a compreensão e reduz ambiguidades.
 
-Resposta observada:
+Observação:
+Foi um dos prompts mais eficazes, porque definiu contexto e papel, resultando em uma explicação mais clara e didática.
 
-A inteligência artificial é o campo amplo; aprendizado de máquina é uma abordagem; aprendizado profundo é uma subárea do aprendizado de máquina; e IA generativa é uma aplicação que cria conteúdo a partir de padrões.
-
-Conclusão:
-
-Esse prompt foi muito eficaz porque exigia estrutura e comparação direta, o que ajudou a fixar os conceitos.
-
-### Pergunta 3 — Prompt direcionado para estudo
-
-Prompt utilizado:
-
-> Você é um professor de tecnologia. Explique engenharia de prompts para estudantes iniciantes, com exemplos práticos e explique cinco boas práticas para escrever prompts melhores.
-
-Resposta observada:
-
-A resposta destacou que prompts bem elaborados têm melhor clareza, contexto e objetivo. Também ressaltou que a qualidade da resposta depende de elementos como instruções específicas, formato desejado e contexto do público.
-
-Conclusão:
-
-Esse formato foi muito eficiente porque definiu papéis e contexto, o que resultou em uma explicação mais didática.
-
-### Pergunta 4 — Solicitação de exemplos e dificuldades
-
-Prompt utilizado:
-
+### Prompt 4 — Identificação de erros
+Pergunta:
 > Liste cinco erros comuns ao escrever prompts e explique como corrigir cada um deles.
 
-Resposta observada:
+Resposta obtida:
+A IA mencionou erros como prompts vagos, ausência de contexto, instruções ambíguas, falta de objetivo e ausência de critérios de validação.
 
-A IA mencionou erros como prompts vagos, falta de contexto, ausência de objetivo, instruções ambíguas e falta de critérios de validação.
+Observação:
+Esse prompt foi muito útil para entender quais elementos impactam diretamente a qualidade da resposta.
 
-Conclusão:
-
-Esse tipo de pergunta foi muito útil para entender não apenas o conteúdo, mas também a prática de melhorar a qualidade das interações.
-
-### Pergunta 5 — Validação crítica
-
-Prompt utilizado:
-
+### Prompt 5 — Validação crítica
+Pergunta:
 > Quais afirmações desta resposta precisam ser checadas com fontes confiáveis? Identifique possíveis limitações.
 
-Resposta observada:
+Resposta obtida:
+A IA destacou a importância de validar informações, principalmente quando a resposta oferece afirmações sem suporte explícito ou contexto suficiente.
 
-A resposta destacou que é importante verificar dados, fontes e contexto, especialmente quando a IA oferece afirmações sem suporte explícito.
+Observação:
+Esse prompt foi decisivo para estimular o pensamento crítico e reforçar a importância de verificar conteúdos gerados pela IA.
 
-Conclusão:
+---
 
-Esse foi um dos prompts mais valiosos, porque estimulou pensamento crítico e reforçou a necessidade de validar informações.
-
-### Dificuldades encontradas
+## Dificuldades encontradas e troubleshooting
 
 Durante o processo, alguns desafios surgiram:
 
-- Prompts muito genéricos geravam respostas amplas e pouco úteis;
-- Falta de contexto tornava a explicação superficial;
-- A IA às vezes respondia de forma muito técnica sem considerar o nível do usuário;
-- Em alguns casos, a resposta era correta em linguagem, mas precisava ser corroborada por fontes confiáveis;
-- Foi importante agir como leitor crítico e não aceitar tudo como verdade.
+- Prompts muito genéricos geravam respostas vagas;
+- Falta de contexto resultava em explicações incompletas;
+- A IA às vezes respondia de forma técnica demais sem considerar o nível do leitor;
+- Algumas respostas eram plausíveis, mas precisavam ser verificadas com fontes confiáveis;
+- Foi necessário desenvolver uma postura crítica para não aceitar a resposta da IA como verdade absoluta.
 
-### Estratégias de troubleshooting
-
-Para melhorar a qualidade das respostas, foram aplicadas várias estratégias:
-
-- Adicionar contexto mais específico;
+### Estratégias usadas para melhorar os resultados
+- Adicionar contexto específico ao prompt;
 - Definir claramente o público-alvo;
-- Pedir que a resposta seja organizada em tópicos ou tabelas;
-- Solicitar explicações em linguagem simples;
-- Pedir comparação entre conceitos;
-- Pedir a identificação de limitações e fontes de validação;
-- Reduzir o escopo da pergunta para evitar respostas vagas.
+- Solicitar estrutura em tópicos, listas ou tabelas;
+- Pedir explicações em linguagem simples;
+- Solicitar exemplos práticos;
+- Validar respostas com fontes externas;
+- Reduzir o escopo da pergunta para evitar respostas excessivamente amplas.
 
 ---
 
 ## Miniguia de estudo
 
 ### 1. O que é Inteligência Artificial?
-
-Inteligência Artificial é o campo da computação que busca criar sistemas capazes de realizar tarefas que normalmente exigem inteligência humana, como reconhecimento de padrões, tomada de decisão e análise de dados.
+Inteligência Artificial é o campo da computação que busca desenvolver sistemas capazes de realizar tarefas que normalmente exigem inteligência humana, como classificação, análise de dados, reconhecimento de padrões e tomada de decisão.
 
 ### 2. O que é IA Generativa?
+A IA generativa é uma subárea da inteligência artificial voltada para a criação de conteúdo novo. Ela é capaz de gerar textos, imagens, código, música, vídeos e outros tipos de material a partir de padrões aprendidos em grandes volumes de dados.
 
-A IA generativa é uma subárea da inteligência artificial voltada para a criação de conteúdo novo a partir de padrões aprendidos em grandes volumes de dados. Ela pode gerar textos, imagens, código, música, vídeos e outras formas de conteúdo.
+### 3. O que é Machine Learning?
+Aprendizado de máquina é uma abordagem em que sistemas aprendem relações e padrões a partir de dados, sem depender apenas de regras explícitas criadas manualmente.
 
-### 3. O que é aprendizado de máquina?
+### 4. O que é Deep Learning?
+Aprendizado profundo é uma subárea do aprendizado de máquina que utiliza redes neurais com várias camadas para resolver problemas complexos, como visão computacional e processamento de linguagem.
 
-Aprendizado de máquina é uma abordagem em que sistemas aprendem relações e padrões a partir de dados, em vez de seguir regras explicitamente programadas.
-
-### 4. O que é aprendizado profundo?
-
-Aprendizado profundo é uma subárea do aprendizado de máquina baseada em redes neurais com muitas camadas. Ele é especialmente eficaz em tarefas complexas como visão computacional, processamento de linguagem e reconhecimento de voz.
-
-### 5. O que é engenharia de prompts?
-
-Engenharia de prompts é a prática de formular instruções claras e estruturadas para obter respostas mais úteis, precisas e relevantes de modelos de IA.
+### 5. O que é Engenharia de Prompts?
+Engenharia de prompts é a prática de formular instruções claras e bem estruturadas para obter respostas mais úteis, relevantes e consistentes de modelos de IA.
 
 ### 6. Como escrever um bom prompt?
-
 Um bom prompt geralmente inclui:
-
 - objetivo claro;
 - contexto suficiente;
 - público-alvo;
-- formato solicitado;
+- formato desejado;
 - restrições ou critérios;
 - exemplos quando necessário.
 
 ### 7. Quais são as limitações da IA?
-
-Embora seja poderosa, a IA pode:
-
+A IA pode:
 - gerar informações incorretas;
 - inventar detalhes;
 - interpretar mal o contexto;
-- refletir vieses presentes nos dados;
-- não garantir precisão em assuntos altamente específicos.
+- refletir vieses dos dados de treinamento;
+- não garantir precisão em temas muito específicos.
 
-Por isso, é essencial validar as respostas com fontes confiáveis.
+Por isso, é fundamental validar informações com fontes confiáveis e manter senso crítico.
 
 ---
 
 ## Glossário
 
-- IA (Inteligência Artificial): campo que busca desenvolver sistemas com capacidades inteligentes.
-- IA Generativa: tecnologia capaz de criar conteúdo novo a partir de padrões aprendidos.
-- Prompt: instrução dada à IA para orientar a resposta.
-- Engenharia de Prompts: técnica de otimizar a formulação de prompts.
-- Aprendizado de Máquina: método em que o sistema aprende a partir de dados.
-- Aprendizado Profundo: subcampo do aprendizado de máquina baseado em redes neurais.
-- Modelo de Linguagem: sistema treinado para processar e gerar linguagem natural.
-- Validação: verificação da qualidade, precisão e confiabilidade das respostas.
-- Alucinação da IA: resposta plausível, mas falsa ou sem suporte real.
+- IA (Inteligência Artificial): área da computação que busca criar sistemas com capacidade inteligente;
+- IA Generativa: tecnologia capaz de criar conteúdo novo;
+- Prompt: instrução enviada à IA para orientar a resposta;
+- Engenharia de Prompts: técnica de aperfeiçoar instruções para melhorar a qualidade das respostas;
+- Aprendizado de Máquina: método de aprendizado a partir de dados;
+- Aprendizado Profundo: subcampo do aprendizado de máquina baseado em redes neurais;
+- Modelo de Linguagem: sistema treinado para compreender e produzir linguagem natural;
+- Validação: processo de verificar a precisão e confiabilidade das respostas;
+- Alucinação da IA: resposta plausível, porém falsa ou sem suporte real;
 - Curadoria de fontes: seleção e organização de materiais relevantes para estudo.
 
 ---
 
 ## Prompts reutilizáveis para futuras revisões
 
-Abaixo estão prompts prontos para uso em estudos futuros:
-
 ### 1. Resumo rápido
-
-> Resuma este tema em 5 tópicos, destacando os conceitos principais, exemplos práticos e os pontos mais importantes para revisão.
+> Resuma este tema em 5 tópicos, destacando os conceitos principais, exemplos práticos e as ideias centrais para revisão.
 
 ### 2. Explicação para iniciantes
-
-> Explique este conceito como se estivesse ensinando uma pessoa que nunca ouviu falar sobre o assunto. Use linguagem simples e exemplos do cotidiano.
+> Explique este conceito como se estivesse ensinando alguém que nunca ouviu falar sobre o assunto. Use linguagem simples e exemplos do cotidiano.
 
 ### 3. Comparação de conceitos
-
 > Compare os termos A e B em uma tabela com definição, semelhanças, diferenças e exemplo prático.
 
 ### 4. Revisão para memorização
-
 > Crie uma lista de 10 pontos essenciais para revisar este tema e explique cada um em 2 ou 3 frases.
 
 ### 5. Perguntas de aprendizagem ativa
-
 > Gere 10 perguntas de revisão sobre este tema, incluindo respostas curtas e um gabarito final.
 
 ### 6. Validação crítica
-
 > Identifique quais partes desta resposta precisam ser confirmadas com fontes confiáveis e explique por quê.
 
-### 7. Estudo em formato de guia
+### 7. Formato de guia de estudo
+> Transforme este conteúdo em um miniguia de estudo com objetivos, conceitos principais, glossário e checklist final.
 
-> Transforme este material em um miniguia de estudo com objetivos, conceitos principais, glossário e checklist final.
+---
+
+## Vídeo produzido com o NotebookLM
+
+Como complemento deste projeto, foi criado um vídeo educativo utilizando o recurso de resumo em vídeo do NotebookLM.
+
+[Assistir ao vídeo](https://github.com/edilsonbit/miniguia-ia-generativa-notebooklm/blob/main/Como_Criar_o_Prompt_de_Imagem_Perfeito.mp4)
 
 ---
 
 ## Conclusão
 
-O uso do NotebookLM foi fundamental para transformar a pesquisa em um processo de aprendizagem organizada e crítica. Ao combinar fontes, perguntas bem elaboradas e análise de respostas, foi possível construir um material de estudo com mais clareza, profundidade e praticidade.
+O uso do NotebookLM foi fundamental para transformar uma pesquisa em um processo estruturado de aprendizagem ativa. Ao combinar fontes confiáveis, perguntas bem elaboradas e análise crítica das respostas, foi possível consolidar o conhecimento em um material de estudo claro, útil e reutilizável.
 
-Esse tipo de abordagem demonstra o valor da IA como ferramenta de apoio à aprendizagem, desde que seja usada com pensamento crítico, validação de fontes e reforço da curiosidade intelectual.
+Além disso, esse processo mostrou que a IA pode ser um grande aliado da aprendizagem, desde que seja usada com responsabilidade, pensamento crítico e validação de informações. A prática de escrever prompts eficazes também se mostrou uma habilidade estratégica, altamente relevante para o cenário profissional atual.
 
-O desafio foi concluído com uma visão mais clara sobre o papel da IA generativa no processo educativo e sobre a importância da engenharia de prompts como habilidade estratégica para quem deseja desenvolver conhecimento de forma eficiente.
+Este projeto representa uma forma prática de demonstrar como a inteligência artificial pode apoiar estudos, organização de conhecimento e produção de materiais acadêmicos e profissionais.
 
 ---
 
 ## Observações finais
 
 Este repositório foi pensado como um portfólio de estudo e pode ser ampliado com:
-
 - novas fontes;
-- materiais visuais;
-- resumos em markdown adicionais;
+- resumos adicionais;
 - mapas mentais;
 - exercícios de revisão;
-- comparações com outras ferramentas de IA.
+- comparações com outras ferramentas de IA;
+- materiais visuais e infográficos.
 
-O objetivo principal é manter um registro claro do processo de aprendizagem e demonstrar como a IA pode ser usada como aliada de estudo e produção de conhecimento.
+O objetivo principal é registrar o processo de aprendizagem de forma clara, profissional e útil para futuras consultas.
